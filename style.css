@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+.container {
+  margin-top: 5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(#f36945, #9bddf9);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-family: "Cookie";
+  font-size: 800%;
+  text-align: center;
+  text-shadow: 4px 4px 1px #a83b24;
+}
+
+h1:hover {
+  text-shadow: 7px 7px 7px #E4a457;
+}
+
+.btn.dropdown-toggle {
+  width: 150px;
+  text-align: center;
+}
+
+span.caret {
+  position: absolute;
+  left: 90%;
+  top: 45%;
+}
+
+form label {
+  padding-top: 5px;
+  color: white;
+}
+
+.form-control {
+  border-radius: 100px;
+}
+
+#btn_submit {
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-success {
+  background-color: #a83b24;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #7b312c;
+}
+
+img.track {
+  border: 3px solid #8a8a8a;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+iframe {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.song-list {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+#watermelons {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+}
